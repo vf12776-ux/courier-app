@@ -15,21 +15,19 @@ export default defineConfig({
         background_color: '#ffffff',
         display: 'standalone',
         start_url: '/courier-app/',
+        scope: '/courier-app/',
         icons: [
           {
-            src: 'icon55.png',
+            src: 'icon55.png',  // ОТНОСИТЕЛЬНЫЙ ПУТЬ!
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: 'icon55.png',
+            src: 'icon55.png',  // ОТНОСИТЕЛЬНЫЙ ПУТЬ!
             sizes: '512x512',
             type: 'image/png'
           }
         ]
-      },
-      workbox: {
-        globPatterns: ['**/*.{js,css,html,png,svg,ico}']
       }
     })
   ],
