@@ -14,18 +14,22 @@ export default defineConfig({
         theme_color: '#ffffff',
         background_color: '#ffffff',
         display: 'standalone',
+        start_url: '/courier-app/',
         icons: [
           {
-            src: 'pwa-192x192.svg',
+            src: 'icon55.png',
             sizes: '192x192',
-            type: 'image/svg+xml'
+            type: 'image/png'
           },
           {
-            src: 'pwa-512x512.svg',
+            src: 'icon55.png',
             sizes: '512x512',
-            type: 'image/svg+xml'
+            type: 'image/png'
           }
         ]
+      },
+      workbox: {
+        globPatterns: ['**/*.{js,css,html,png,svg,ico}']
       }
     })
   ],
