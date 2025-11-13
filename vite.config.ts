@@ -18,12 +18,12 @@ export default defineConfig({
         scope: '/courier-app/',
         icons: [
           {
-            src: 'icon55.png',  // ОТНОСИТЕЛЬНЫЙ ПУТЬ!
+            src: 'icon55.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: 'icon55.png',  // ОТНОСИТЕЛЬНЫЙ ПУТЬ!
+            src: 'icon55.png',
             sizes: '512x512',
             type: 'image/png'
           }
