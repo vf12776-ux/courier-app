@@ -1,14 +1,13 @@
-import React from 'react';
-import OrderList from './components/OrderList';
-import './App.css';
+import React from 'react'
+import './App.css'
 
 function App() {
   return (
     <div className="App">
       <h1>Courier App</h1>
-      <OrderList />
+      <p>Приложение запущено</p>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
